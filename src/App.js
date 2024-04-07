@@ -38,7 +38,7 @@ function App() {
     <Alert alert = {alert}/>
     <div className="container mt-3">
     <Routes>
-      <Route path="/" element = {<Notepad heading="Enter Any Paragraph" mode={mode}/>}></Route>
+      <Route path="/Home" element = {<Notepad heading="Enter Any Paragraph" mode={mode}/>}></Route>
       <Route path="/About" element = {<Accordion/>}></Route>
       </Routes>
       </div>
